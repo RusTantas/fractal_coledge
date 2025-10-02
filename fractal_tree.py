@@ -17,7 +17,7 @@ def main():
     t.up()
     t.backward(100)
     t.down()
-    t.color("blue")
+    t.color("red")
     draw_tree(75, t)
     screen.exitonclick()
 
