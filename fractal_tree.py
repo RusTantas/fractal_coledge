@@ -1,6 +1,6 @@
 import turtle
 
-def draw_tree(branch_len, t, angle=20):
+def draw_tree(branch_len, t, angle=30):
     if branch_len > 5:
         t.forward(branch_len)
         t.right(angle)
